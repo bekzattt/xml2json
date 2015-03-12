@@ -72,7 +72,7 @@ class SimplisticTest(unittest.TestCase):
 
         e = {'r': {'@p': 'p1', '#tail': '#tail', 'c': 't2'}}
 
-        res = xml2json.json2xml(e);
+        res = xml2json.json2xml(xe);
 
         print res;
 
